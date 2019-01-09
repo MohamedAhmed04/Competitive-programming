@@ -1,1 +1,1 @@
-# This repository contains problems that's solved in 2019...I will try to add problems that it solved in 2017 and 2018
+This repository contains all problem that I solved in 2019....I will try to add problems that I've solved in 2017 and 2018
