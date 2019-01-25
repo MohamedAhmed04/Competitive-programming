@@ -4,6 +4,7 @@
    problem name : baza (COCI 17-baza)
    problem link : https://oj.uz/problem/view/COCI17_baza
 
+   just bruteforce in every query and print answer
 */
 
 #include <bits/stdc++.h>
