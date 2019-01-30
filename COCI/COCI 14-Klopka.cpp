@@ -1,7 +1,7 @@
 /* Author : Mohamed Ahmed (handle : MohamedAhmed04)
 
    contest name : COCI 14 contest 1
-   problem name : Klopska (COCI 14-Klopska)
+   problem name : Klopka (COCI 14-Klopka)
    problem link : https://dmoj.ca/problem/coci14c1p2
 
    since side length will be equal to max(max difference between two x ,
