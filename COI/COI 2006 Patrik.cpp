@@ -8,7 +8,7 @@
    we will make monotonic stack that's decreasing and make stack of pair
    to handle equal elements.
 
-   note : to lean monotonic stack/queue :
+   note : to learn monotonic stack/queue :
    https://medium.com/algorithms-and-leetcode/monotonic-queue-explained-with-leetcode-problems-7db7c530c1d6
 
 */
