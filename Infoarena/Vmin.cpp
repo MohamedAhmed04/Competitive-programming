@@ -7,6 +7,7 @@
    classical convex hull problem (I solved it using Li Chao tree) , so in every time
    we try to find idx of minimum x in function and print it.
 
+   note : time limit is strict so don't forget to use fast input.
 */
 
 #include <bits/stdc++.h>
