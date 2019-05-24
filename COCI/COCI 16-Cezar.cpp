@@ -116,12 +116,6 @@ int main()
             topological_sort(i) ;
     }
     string ans = string("" , 26) ;
-    //debugging
-    if(topo.size() < 26)
-        while(1) ;
-    //debugging
-    if(topo.size() > 26)
-      	assert(false) ;
     for(int i = 0 ; i < 26 ; ++i)
     {
         ans[topo[i]] = (char)(i+'a') ;
