@@ -2,7 +2,7 @@
 
    contest name : COCI 2016 contest 1
    problem name : Cezer (COCI 16-Cezar)
-   problem link : https://oj.uz/problem/view/COCI16_cezar
+   problem link : https://dmoj.ca/problem/coci16c1p3
 
    problem solution :
     https://github.com/mostafa-saad/MyCompetitiveProgramming/blob/master/Olympiad/COCI/official/2017/contest1_solutions/solutions.pdf
