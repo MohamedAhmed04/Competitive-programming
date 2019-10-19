@@ -1,16 +1,3 @@
-/* Author : Mohamed Ahmed Bakry (handle : MohamedAhmed04)
-
-   contest name : central europian olympiad in informatics 2017 (CEOI 2017)
-   problem name : building bridges
-   problem link : https://csacademy.com/contest/ceoi-2017-day-2/task/building-bridges/
-
-   problem's solution :
-   	we can do it using dp where dp[i] = min(dp[j] + (h[i]-h[j])*(h[i]-h[j])+sum[i-1]-sum[j]) where j < i
-   	sum[i] = sum w[i] from 1 to i.
-   	we can do it using LiChao tree (convex hull trick optimization).
-
-*/
-
 #include <bits/stdc++.h>
  
 using namespace std ;
@@ -51,7 +38,7 @@ int rig(int node)
 	return R[node] ;
 }
  
-void add_line(point nw , int v = 1 , long long l = -1e12-5 , long long r = 1e12+5)
+void add_line(point nw , int v = 1 , long long l = -1e7-5 , long long r = 1e7+5)
 {
 	long long m = l + (r-l) / 2ll ;
 	bool lef = f(nw , l) < f(line[v] , l) ;
@@ -66,7 +53,7 @@ void add_line(point nw , int v = 1 , long long l = -1e12-5 , long long r = 1e12+
 		add_line(nw , rig(v) , m , r) ;
 }
  
-long long get(long long x , int v = 1 , long long l = -1e12-5 , long long r = 1e12+5)
+long long get(long long x , int v = 1 , long long l = -1e7-5 , long long r = 1e7+5)
 {
 	long long m = l + (r-l) / 2 ;
 	if(r-l == 1)
@@ -80,7 +67,7 @@ long long get(long long x , int v = 1 , long long l = -1e12-5 , long long r = 1e
 
 int main()
 {
-	init() ;
+    init() ;
     int n ;
     scanf("%d" , &n) ;
     long long arr[n+1] , sum[n+1] , dp[n+1];
