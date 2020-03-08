@@ -14,7 +14,7 @@
     - so if we iterate on the second array then at each iteration we can 
       add to the answer
                          N
-      					---
+      			---
                         \    val[j]
                         /
                         ---
